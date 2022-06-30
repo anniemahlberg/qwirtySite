@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500&display=swap');
+
+.categories {
+    flex-basis: 256px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    max-width: 200px;
+}
+
+.categories a {
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: #44b;
+    color: white;
+    padding: 15px;
+    font-weight: 100;
+}
+
+.categories a:hover {
+    box-shadow: 0 2px 5px -2px black;
+}
